@@ -54,20 +54,20 @@
 					<tr>
 						<td class="text-right">
 						<br />
-						<strong>{LANG.description} </th>
+						<strong>{LANG.description}: </th>
 						<td >
 							<textarea class="form-control" id="description" name="description" cols="100" rows="5">{description}</textarea>
 							<br />
 							<span class="text-middle"> {GLANG.length_characters}: <span id="descriptionlength" class="red">0</span>. {GLANG.description_suggest_max} </span></td>
 					</tr>
 					<tr>
-						<th class="text-right">{LANG.content_homeimg}</th>
+						<th class="text-right">{LANG.content_homeimg}:</th>
 						<td><input class="form-control w500 pull-left" type="text" name="image" id="image" value="{image}"/> &nbsp;<input id="select-img-cat" type="button" value="Browse server" name="selectimg" class="btn btn-info" /></td>
 					</tr>
 					<tr>
 						<td class="text-right">
 						<br />
-						<strong>{LANG.viewcat_detail} </th> <td><!-- BEGIN: groups_views -->
+						<strong>{LANG.viewcat_detail}: </th> <td><!-- BEGIN: groups_views -->
 						<div class="row">
 							<label><input name="groups_view[]" type="checkbox" value="{groups_views.value}" {groups_views.checked} />{groups_views.title}</label>
 						</div><!-- END: groups_views --></td>
